@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #006c1b;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  padding: 0;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#numero {
+  font-size: 12rem;
+  align-self: center;
+}
+
+#simbolo1 {
+  font-size: 8rem;
+  align-self: flex-start;
+}
+
+#simbolo2 {
+  font-size: 8rem;
+  align-self: flex-end;
+}
+
+.red {
+  color: red;
+}
